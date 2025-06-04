@@ -1,15 +1,15 @@
 
 
-Overview
-
+**Overview
+**
 This article provides guidance on using a custom bash script to back up F5 Distributed Cloud (F5XC) configurations, including:
 
-Application Namespaces
+**Application Namespaces
 HTTP and TCP Load Balancers
 Origin Pools
 Health Checks
 Application Firewalls
-Service Policies
+Service Policies**
 
 The script utilizes the F5XC API for fetching configuration details of various components and organizing them into easily accessible backups.
 
@@ -27,7 +27,7 @@ Ensure curl is installed and available for making API requests.
 Install jq
 The script uses jq to parse JSON responses from the F5XC API.
 
-1
+
 
 Set the Required Variables:
 The script requires two variables to be set:
